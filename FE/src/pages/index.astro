@@ -1,0 +1,10 @@
+---
+import App from '../components/Hello';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title='Home'>
+	<main class='flex justify-center flex-col'>
+		<App client:load />
+	</main>
+</Layout>

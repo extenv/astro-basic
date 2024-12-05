@@ -1,0 +1,21 @@
+{
+  "name": "fe",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "prod": "astro build & astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^8.2.5",
+    "@astrojs/solid-js": "^4.2.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.8.3",
+    "solid-js": "^1.8.17",
+    "tailwindcss": "^3.4.3"
+  }
+}
